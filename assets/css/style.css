@@ -10,8 +10,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: black;
+  font-family: "Lato", sans-serif;
+  color: white;
   background: url("../img/bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 #main {
@@ -103,11 +103,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color: white;
 }
 
 #header h2 {
-  color: black;
+  color: white;
   margin-bottom: 40px;
   font-size: 22px;
 }
@@ -122,7 +122,9 @@ h6 {
   width: 100px;
   padding: 15px 0;
   background: rgba(255, 255, 255, 0.12);
-  border-top: 5px solid #ff0000;
+  border-top: 5px solid #F40D8C;
+  border-right: 5px solid #F4C200;
+  border-left: 5px solid #2A167F;
 }
 
 #header .countdown div h3 {
@@ -530,4 +532,16 @@ section {
 
 #footer .credits a {
   color: #ff3333;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .promo-video {
+    font-size: 20px;
+  }
 }
